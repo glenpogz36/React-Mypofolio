@@ -1,56 +1,93 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import Skills from './Skills';
 import Education from './Education';
 import Experience from './Experience';
-
+import Skills from './Skills';
+import profile from '../Assests/img/profile.png'
 
 class Resume extends Component {
   render() {
     return (
       <div>
+        <Grid>
+          <Cell col={4}>
+            <div>
+              <img
+                src={profile}
+                alt="avatar"
+                style={{ height: '200px' }}
+              />
+            </div>
 
-        <p>My name is Glen Sale born and raised from the Philippines. I move here October 9, 2005 as English is my second language.</p>
-        <p>Over the years I have learned <em>English through ESL and Ell</em> and was able to graduate from it</p>
-        <p>I have join <u>robotics clubs</u> and <u>culinary classes</u> but computer was my main interest</p>
-        <p>Currently a student epicodus to persue long term career</p>
-
-
-        <h2>Skills</h2>
-        <Skills
-          skill="javascript"
-
-        />
-        <Skills
-          skill="HTML/CSS"
-
-        />
-        <Skills
-          skill="NodeJS"
-
-        />
-        <Skills
-          skill="React"
-
-        />
-
-        <Education
-          startYear={2010}
-          endYear={2014}
-          schoolName="Kent Meridian Highschool"
-          schoolDescription="Test"
-        />
-
-        <Experience
-          startYear={1}
-          endYear={2}
-          jobName="exp"
-          jobDescription="exp"
-        />
+            <h2>Glen Sale</h2>
+            <h4>Junior Developer</h4>
+            <hr />
+            <p>Objective : Currently working and  studying Computer Programming at Epicodus to obtain an entry level position and to have an opportunity for growth</p>
+            <hr />
+            <h5>Address</h5>
+            <p>23925 98th ave S Kent, WA 98031</p>
+            <h5>Phone</h5>
+            <p>(206) 910-6531</p>
+            <h5>Email</h5>
+            <p>glen_sale@yahoo.com</p>
+            <h5>Github</h5>
+            <a href="https://github.com/glenpogz36">https://github.com/glenpogz36</a>
+            <h5>Linkedin</h5>
+            <a href="https://www.linkedin.com/in/glen-sale/">https://www.linkedin.com/in/glen-sale/</a>
+            <hr />
+          </Cell>
+          <Cell col={8}>
+            <h2>Education</h2>
 
 
+            <Education
+              startYear={2010}
+              endYear={2015}
+              schoolName="Kent Meridian HighSchool"
+              schoolDescription=""
+            />
+
+            <Education
+              startYear={2018}
+              endYear={2019}
+              schoolName="Epicodus Epecenter"
+              schoolDescription=""
+            />
+            <hr style={{ borderTop: '3px solid #e22947' }} />
+
+            <h2>Experience</h2>
+
+            <Experience
+              startYear={2013}
+              endYear={2014}
+              jobName="Family Fun Center"
+              jobDescription=""
+            />
+
+            <Experience
+              startYear={2014}
+              endYear={2015}
+              jobName="Red Ribbon Tukwilla"
+              jobDescription=""
+            />
+            <hr />
+            <h2>Skills</h2>
+            <Skills
+              skill="javascript"
+            />
+            <Skills
+              skill="HTML/CSS"
+            />
+            <Skills
+              skill="NodeJS"
+            />
+            <Skills
+              skill="React"
+            />
 
 
+          </Cell>
+        </Grid>
       </div>
     )
   }
