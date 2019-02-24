@@ -12,7 +12,7 @@ class Landing extends Component {
 
                     <hr />
 
-                    <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
+                    <p>HTML/CSS | Bootstrap | JavaScript | React | Angular | NodeJS | C# | Firebase | MySQL | MAMP | API  </p>
 
                 </div>
             </div>
