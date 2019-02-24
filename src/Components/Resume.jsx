@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Skills from './Skills';
 import Education from './Education';
+import Experience from './Experience';
 
 
 class Resume extends Component {
@@ -15,29 +16,36 @@ class Resume extends Component {
                 <p>Currently a student epicodus to persue long term career</p>
 
 
-                {/* <h2>Skills</h2>
-                        <Skills
-                            skill="javascript"
-                            progress={100}
-                        />
-                        <Skills
-                            skill="HTML/CSS"
-                            progress={80}
-                        />
-                        <Skills
-                            skill="NodeJS"
-                            progress={50}
-                        />
-                        <Skills
-                            skill="React"
-                            progress={25}
-                        /> */}
+                <h2>Skills</h2>
+                <Skills
+                    skill="javascript"
+
+                />
+                <Skills
+                    skill="HTML/CSS"
+
+                />
+                <Skills
+                    skill="NodeJS"
+
+                />
+                <Skills
+                    skill="React"
+
+                />
 
                 <Education
                     startYear={2010}
                     endYear={2014}
                     schoolName="Kent Meridian Highschool"
                     schoolDescription="Test"
+                />
+
+                <Experience
+                    startYear={1}
+                    endYear={2}
+                    jobName="exp"
+                    jobDescription="exp"
                 />
 
 

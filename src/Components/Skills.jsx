@@ -5,7 +5,7 @@ class Skills extends Component {
     render() {
         return (
           
-                    <div>{this.props.skill} <ProgressBar progress={this.props.progress} /> </div>
+                    <div>{this.props.skill}  /> </div>
            
         )
     }
