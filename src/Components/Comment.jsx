@@ -31,7 +31,7 @@ class Comment extends Component {
                 </div>
                 <Clock time={this.props.comment.time} />
                 <div onClick={this.deleteComment.bind(this)} className='comment-delete'>
-                    Delete
+                    Clear
 					</div>
             </div>
         )

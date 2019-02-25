@@ -44,8 +44,8 @@ class CommentInput extends Component {
     publish() {
         const time = new Date().toLocaleTimeString();
         const { username, comment } = this.state
-        if (!username) return alert('请输入用户名')
-        if (!comment || comment == '\s') return alert('请输入评论')
+        if (!username) return
+        if (!comment || comment == '\s') return
         if (this.props.onSubmit) {
             this.props.onSubmit({ username, comment, time })
         }

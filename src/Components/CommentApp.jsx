@@ -4,22 +4,21 @@ import CommentInput from './CommentInput'
 import CommentList from './CommentList'
 import Timer from './Timer'
 import PropTypes from 'prop-types'
+import "bootstrap/dist/css/bootstrap.css";
 
 
 
 class CommentApp extends Component {
-    static childContextTypes = {
-        themeColor: PropTypes.string
-    }
+
     getChildContext() {
         return {
-            themeColor: this.state.themeColor
+
         }
     }
     constructor() {
         super();
         this.state = {
-            themeColor: 'aqual',
+
             comments: []
         }
     }

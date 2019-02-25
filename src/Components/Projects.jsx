@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 import bg from '../Assests/img/bg.jpg'
-import CommentApp from './CommentApp'
+import { Link } from 'react-router-dom';
 
 
 
@@ -31,7 +31,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/glenpogz36/hello-world">Github</a></Button>
-              <Button colored> Comment</Button>
+              <Button colored> <Link to="/comment"><Link to="/comment">COMMENT</Link></Link></Button>
               <Button colored><a href="https://github.com/glenpogz36/hello-world/blob/master/hello-world.html">Live Code</a></Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
@@ -47,7 +47,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>Comment</Button>
+              <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
@@ -63,7 +63,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>Comment</Button>
+              <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
@@ -88,7 +88,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/gulzatk/ChildDevelopment">Github</a></Button>
-              <Button colored>Comment</Button>
+              <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
@@ -104,7 +104,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>Comment</Button>
+              <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
@@ -120,7 +120,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>Comment</Button>
+              <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
@@ -143,7 +143,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/glenpogz36/Pizza-Project">Github</a></Button>
-              <Button colored>Comment</Button>
+              <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
@@ -159,7 +159,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>Comment</Button>
+              <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
@@ -175,7 +175,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>Comment</Button>
+              <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
@@ -197,7 +197,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/glenpogz36/Angular-NBA">Github</a></Button>
-              <Button colored>Comment</Button>
+              <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored><a href="https://nba-glenpogz36.firebaseapp.com/">Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
@@ -213,7 +213,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>Comment</Button>
+              <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
@@ -229,7 +229,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>Comment</Button>
+              <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
@@ -252,7 +252,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/glenpogz36/React-Mypofolio">Github</a></Button>
-              <Button colored>Comment</Button>
+              <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
@@ -268,7 +268,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>Comment</Button>
+              <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
@@ -284,7 +284,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>Comment</Button>
+              <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
