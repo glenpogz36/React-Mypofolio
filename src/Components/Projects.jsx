@@ -300,7 +300,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <div>
+      <body classNames>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
           <Tab>HTML/CSS</Tab>
           <Tab>C#</Tab>
@@ -320,7 +320,7 @@ class Projects extends Component {
 
 
 
-      </div >
+      </body >
 
 
     )

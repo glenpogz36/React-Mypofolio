@@ -11,7 +11,7 @@ import { Progress } from 'reactstrap';
 class Resume extends Component {
   render() {
     return (
-      <div>
+      <body className="resume">
         <Grid>
           <Cell col={4}>
             <div style={{ textAlign: 'center' }}>
@@ -34,9 +34,9 @@ class Resume extends Component {
             <h5>Email</h5>
             <p>glen_sale@yahoo.com</p>
             <h5>Github</h5>
-            <a href="https://github.com/glenpogz36">https://github.com/glenpogz36</a>
+            <a href="https://github.com/glenpogz36" rel="noopener noreferrer" target="_blank">https://github.com/glenpogz36</a>
             <h5>Linkedin</h5>
-            <a href="https://www.linkedin.com/in/glen-sale/">https://www.linkedin.com/in/glen-sale/</a>
+            <a href="https://www.linkedin.com/in/glen-sale/" rel="noopener noreferrer" target="_blank">https://www.linkedin.com/in/glen-sale/</a>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
@@ -95,26 +95,30 @@ class Resume extends Component {
             <h2 style={{color: "green"}}>Skills</h2>
             <Skills
               skill="HTML/CSS"
-              progress={100}
-
             />
+              <Progress bar value="100">100%</Progress>
 
             <Skills
               skill="C#"
-              progress={60}
             />
+            <Progress bar color="success" value="60">60%</Progress>
             <Skills
               skill="JS"
               progress={70}
             />
+               <Progress bar color="info" value="70">70%</Progress>
             <Skills
               skill="Angular"
               progress={80}
             />
+                 <Progress bar color="warning" value="80">80%</Progress>
             <Skills
               skill="React"
               progress={50}
             />
+            <Progress bar color="danger" value="50">50%</Progress>
+            <br/>
+            <h2>Progress</h2>
             <Progress multi>
               <Progress bar value="100">HTML/CSS</Progress>
               <Progress bar color="success" value="60">C#</Progress>
@@ -127,7 +131,7 @@ class Resume extends Component {
 
           </Cell>
         </Grid>
-      </div>
+      </body>
     )
   }
 }

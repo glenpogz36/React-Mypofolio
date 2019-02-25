@@ -57,11 +57,14 @@ class CommentApp extends Component {
     }
     render() {
         return (
-            <div className="comment-app-wrapper">
-                <Timer />
-                <CommentInput onSubmit={this.handleSubmit.bind(this)} />
-                <CommentList onDelete={this.deleteComment.bind(this)} comments={this.state.comments} />
-            </div>
+            <body className='feedback'>
+                <div className="comment-app-wrapper">
+                    <Timer />
+                    <CommentInput onSubmit={this.handleSubmit.bind(this)} />
+                    <CommentList onDelete={this.deleteComment.bind(this)} comments={this.state.comments} />
+                </div>
+            </body>
+
         )
     }
 }

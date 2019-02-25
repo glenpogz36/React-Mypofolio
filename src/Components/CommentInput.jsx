@@ -62,13 +62,14 @@ class CommentInput extends Component {
     render() {
         return (
             <div className="comment-input">
+                <h1 style={{ color: 'grey', fontFamily: 'Apple Chancery, cursive' }}>FeedBack</h1>
                 <div className="username-wrapper">
-                    <label htmlFor="username">Name</label>
-                    <input onBlur={this.saveUsername.bind(this)} value={this.state.username} onChange={this.changeUserName.bind(this)} type="text"></input>
+                    <label htmlFor="username"></label>
+                    <input onBlur={this.saveUsername.bind(this)} value={this.state.username} onChange={this.changeUserName.bind(this)} type="text" placeholder="Write your Topic"></input>
                 </div>
                 <div className="usercomment-wrapper">
-                    <label htmlFor="comment">Comment</label>
-                    <textarea onKeyDown={this.handleKeyup.bind(this)} ref={(textarea) => { this.textarea = textarea }} value={this.state.comment} onChange={this.changeComment.bind(this)} type="text"></textarea>
+                    <label htmlFor="comment"></label>
+                    <textarea onKeyDown={this.handleKeyup.bind(this)} ref={(textarea) => { this.textarea = textarea }} value={this.state.comment} onChange={this.changeComment.bind(this)} type="text" placeholder="Write your Message"></textarea>
                 </div>
                 <div className="submit">
                     <button onClick={this.publish.bind(this)}>Submit</button>

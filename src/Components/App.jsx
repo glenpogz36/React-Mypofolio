@@ -19,7 +19,7 @@ class App extends Component {
                 </a>
 
 
-                <a href="https://github.com/glenpogz36" rel="noopener noreferrer" target="_blank">
+                <a href="https://github.com/glenpogz36" rel="noopener noreferrer" ç>
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
 
