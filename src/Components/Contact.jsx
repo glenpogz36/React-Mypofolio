@@ -5,7 +5,7 @@ import bg from '../Assests/img/bg.jpg'
 class Contact extends Component {
   render() {
     return (
-      <div style={{ color: '#fff', height: '100%', width: '100%', backgroundRepeat: 'no-repeat', backgroundSize: 'cover',  backgroundImage: "url(" + bg + ")"  }}>
+      <div style={{ color: 'brown', height: '100%', width: '100%', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundImage: "url(" + bg + ")" }}>
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Glen Sale</h2>
@@ -17,33 +17,33 @@ class Contact extends Component {
             <h2>Contact Me</h2>
             <hr />
 
-            <div className="contact-list">
+            <div className="contact-list" style={{}}>
               <List>
                 <ListItem>
-                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
+                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton', color: 'brown' }}>
                     <i className="fa fa-phone-square" aria-hidden="true" />
-                    (123) 456-7890
+                    (206) 910-6531
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
+                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton', color: 'brown' }}>
                     <i className="fa fa-fax" aria-hidden="true" />
-                    (123) 456-7890
+                    (253) 852-4647
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
+                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton', color: 'brown' }}>
                     <i className="fa fa-envelope" aria-hidden="true" />
-                    someone@example.com
+                    glen_sale@yahoo.com
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
+                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton', color: 'brown' }}>
                     <i className="fa fa-skype" aria-hidden="true" />
-                    MySkypeID
+                    glenpogz36
                   </ListItemContent>
                 </ListItem>
 

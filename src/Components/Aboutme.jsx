@@ -3,12 +3,12 @@
 
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
-import bg from '../Assests/img/bg.jpg'
+import logo from '../Assests/img/logo.png'
 
 class About extends Component {
   render() {
     return (
-      <div style={{ color: '#fff', height: '100%', width: '100%', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundImage: "url(" + bg + ")" }}>
+      <div style={{ color: 'skyblue', height: '100%', width: '100%', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundImage: "url(" + logo + ")" }}>
         <Grid className="contact-grid">
           <Cell col={6}>
             <div>
