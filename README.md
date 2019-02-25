@@ -1,12 +1,12 @@
 # MyPortfolio
 
-#### __Multiple components that renders different Routed page using React for Epicodus, 2.16.2019_
+#### _Multiple components that renders different Routed page using React for Epicodus, 2.16.2019_
 
 
 #### By _Glen Sale_
 
 ## Description
-
+Web-base porfolio containing about yourself, resume and Github projects. Users are allowed to link to projects and allows user to message a feedback for future improvement.
 
 
 ### Specs
@@ -15,11 +15,19 @@
 | User clicks a Link  | Input= "Home" | Output: Home |
 | User input incorrect URL| Input: "Name" | Output: "Error Page"  |
 | User clicks a Link | Input: "User Clicked" | Output: Details of Link |
+| User clicks Comment | Input: "FeedBack" | Output: "List of Comments"|
 
 ### Example of Routing Structure
 
 ![routing](https://user-images.githubusercontent.com/43967399/52908288-b7c89500-3227-11e9-9c60-69518e098a2d.png)
 
+### Future Improvements
+* API 
+* FireBase
+* Databases
+* Team Project Diccusion
+* Individual Feedback page with unique keys/id
+* Etc...
 
 ## Technologies Used
 * _NPM i create-raect-app (MyprojName_)
