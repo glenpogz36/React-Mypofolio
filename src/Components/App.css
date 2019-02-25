@@ -91,12 +91,9 @@ label[for=comment]{
   flex-direction: row;
   border-bottom: 1px solid #f1f1f1;
 }
-/*.comment:last-child{
-  border-bottom: none;
-}*/
+
 .comment .comment-username{
   color:steelblue;
-  /*flex-grow: 1;*/
   margin-right: 20px;
   flex-shrink:0;
 }
@@ -134,3 +131,4 @@ label[for=comment]{
   font-style: italic;
   color: grey;
 }
+

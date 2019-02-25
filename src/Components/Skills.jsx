@@ -4,8 +4,12 @@ import { Grid, Cell, ProgressBar } from 'react-mdl';
 class Skills extends Component {
   render() {
     return (
+      <Grid>
+        <Cell col={10}>
+          <div style={{ display: 'flex' }}> {this.props.skill} <ProgressBar style={{ margin: 'auto', width: '50%', marginRight: '200px' }} progress={this.props.progress} /> </div>
+        </Cell>
+      </Grid>
 
-      <div>{this.props.skill}  /> </div>
 
     )
   }

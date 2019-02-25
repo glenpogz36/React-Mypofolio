@@ -4,6 +4,9 @@ import Education from './Education';
 import Experience from './Experience';
 import Skills from './Skills';
 import profile from '../Assests/img/profile.png'
+import { Progress } from 'reactstrap';
+
+
 
 class Resume extends Component {
   render() {
@@ -15,14 +18,14 @@ class Resume extends Component {
               <img
                 src={profile}
                 alt="avatar"
-                style={{ height: '200px' }}
+                style={{ height: '300px' }}
               />
             </div>
 
-            <h2 style={{ paddingTop: '2em' }}>Glen Sale</h2>
-            <h4 style={{ color: 'grey' }}>Junior Developer</h4>
+            <h1 style={{ paddingTop: 'em' }}>Glen Sale</h1>
+            <h3 style={{ color: 'grey' }}>Junior Developer</h3>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
-            <p>Objective : Currently working and  studying Computer Programming at Epicodus to obtain an entry level position and to have an opportunity for growth</p>
+            <p><h4>Objective</h4> Currently working and  studying Computer Programming at Epicodus to obtain an entry level position and to have an opportunity for growth</p>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
             <h5>Address</h5>
             <p>23925 98th ave S Kent, WA 98031</p>
@@ -37,53 +40,89 @@ class Resume extends Component {
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
-            <h2>Education</h2>
+            <h2 style={{color: "green"}}>Education</h2>
 
 
             <Education
               startYear={2010}
               endYear={2015}
               schoolName="Kent Meridian HighSchool"
-              schoolDescription=""
+              schoolDescription="Basic Culinary -  Basic-Engineering "
+              
             />
 
             <Education
               startYear={2018}
               endYear={2019}
               schoolName="Epicodus Epecenter"
-              schoolDescription=""
+              schoolDescription="40/hr per week of real world complex problem and morning standups"
+              
             />
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} style={{ borderTop: '3px solid #e22947' }} />
 
-            <h2>Experience</h2>
+            <h2 style={{color: "green"}}>Experience</h2>
 
             <Experience
               startYear={2013}
               endYear={2014}
               jobName="Family Fun Center"
-              jobDescription=""
+              jobDescription="Runner (Cook, Host, Operator, Trainer, Etc..)"
             />
 
             <Experience
               startYear={2014}
               endYear={2015}
               jobName="Red Ribbon Tukwilla"
-              jobDescription=""
+              jobDescription="Cashier, Cook , Storage Man & Trainer
+              "
             />
+               <Experience
+              startYear={2015}
+              endYear={2016}
+              jobName="Green Planet"
+              jobDescription="Buisness, Marketing, Retailer, Co-Owner" 
+            />
+
+            <Experience
+              startYear={2016}
+              endYear={'CURRENT'}
+              jobName="Swissport(Asiana)"
+              jobDescription="Dispatcher (Ramp Agent, Pax Service, Trainer, Etc…)
+              " 
+            />
+
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
-            <h2>Skills</h2>
-            <Skills
-              skill="javascript"
-            />
+            <h2 style={{color: "green"}}>Skills</h2>
             <Skills
               skill="HTML/CSS"
+              progress={100}
+
+            />
+
+            <Skills
+              skill="C#"
+              progress={60}
             />
             <Skills
-              skill="NodeJS"
+              skill="JS"
+              progress={70}
+            />
+            <Skills
+              skill="Angular"
+              progress={80}
             />
             <Skills
               skill="React"
+              progress={50}
             />
+            <Progress multi>
+              <Progress bar value="100">HTML/CSS</Progress>
+              <Progress bar color="success" value="60">C#</Progress>
+              <Progress bar color="info" value="70">JS</Progress>
+              <Progress bar color="warning" value="80">Angular</Progress>
+              <Progress bar color="danger" value="50">React</Progress>
+            </Progress>
+
 
 
           </Cell>

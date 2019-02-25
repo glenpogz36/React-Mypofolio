@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
-import bg from '../Assests/img/bg.jpg'
+import github from '../Assests/img/github.png'
 import { Link } from 'react-router-dom';
 
 
@@ -11,10 +11,10 @@ import { Link } from 'react-router-dom';
 class Projects extends Component {
   constructor(props) {
     super(props);
-    this.state = { activeTab: 0};
-    
+    this.state = { activeTab: 0 };
+
   }
-  
+
 
 
   toggleCategories() {
@@ -25,7 +25,7 @@ class Projects extends Component {
         <div className="projects-grid">
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + bg + ")" }} >Hello-World</CardTitle>
+            <CardTitle style={{ height: '100px', width: '100', color: 'orange', height: '176px', backgroundImage: "url(" + github + ")" }} >Hello-World</CardTitle>
             <CardText>
               HTML Tutorial
             </CardText>
@@ -41,7 +41,7 @@ class Projects extends Component {
 
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + bg + ")" }} >Test</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
             <CardText>
               Test
             </CardText>
@@ -57,7 +57,7 @@ class Projects extends Component {
 
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + bg + ")" }} >Test</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
             <CardText>
               Test
             </CardText>
@@ -82,7 +82,7 @@ class Projects extends Component {
         <div className="projects-grid">
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + bg + ")" }} >Child Development</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Child Development</CardTitle>
             <CardText>
               Child Development Timeline website geared toward parents to learn their child's development timeline from birth to 5 years old. The user needs to create an account to login and fill the form statistic information about their child. The result shows in line chart and parent can compare the result with other kids result by choosing specific parts of the form. Also parent can modify child's information.
             </CardText>
@@ -98,7 +98,7 @@ class Projects extends Component {
 
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + bg + ")" }} >Test</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
             <CardText>
               Test
             </CardText>
@@ -114,7 +114,7 @@ class Projects extends Component {
 
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + bg + ")" }} >Test</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
             <CardText>
               Test
             </CardText>
@@ -137,7 +137,7 @@ class Projects extends Component {
         <div className="projects-grid">
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + bg + ")" }} >Pizza</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Pizza</CardTitle>
             <CardText>
               Create a webpage that allows customers to select there custom made pizza allowing them to input there info and total cost of their custom made pizza using Constructors, Array, Loops, and Objects
             </CardText>
@@ -153,7 +153,7 @@ class Projects extends Component {
 
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + bg + ")" }} >Test</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
             <CardText>
               Test
             </CardText>
@@ -169,7 +169,7 @@ class Projects extends Component {
 
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + bg + ")" }} >Test</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
             <CardText>
               Test
             </CardText>
@@ -191,7 +191,7 @@ class Projects extends Component {
         <div className="projects-grid">
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + bg + ")" }} >NBA</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >NBA</CardTitle>
             <CardText>
               Test
             </CardText>
@@ -207,7 +207,7 @@ class Projects extends Component {
 
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + bg + ")" }} >Test</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
             <CardText>
               Test
             </CardText>
@@ -223,7 +223,7 @@ class Projects extends Component {
 
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + bg + ")" }} >Test</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
             <CardText>
               Test
             </CardText>
@@ -246,7 +246,7 @@ class Projects extends Component {
         <div className="projects-grid">
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + bg + ")" }} >My Porfolio</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >My Porfolio</CardTitle>
             <CardText>
               Multiple components that renders different Routed page using state to manage, display, and collect dynamic datas
             </CardText>
@@ -262,7 +262,7 @@ class Projects extends Component {
 
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + bg + ")" }} >Test</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
             <CardText>
               Test
             </CardText>
@@ -278,7 +278,7 @@ class Projects extends Component {
 
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + bg + ")" }} >Test</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
             <CardText>
               Test
             </CardText>
@@ -316,9 +316,9 @@ class Projects extends Component {
           </Cell>
         </Grid>
 
-        
 
-       
+
+
 
       </div >
 

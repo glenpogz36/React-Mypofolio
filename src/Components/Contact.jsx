@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
-import bg from '../Assests/img/bg.jpg'
+import seattle from '../Assests/img/seattle.jpeg'
 
 class Contact extends Component {
   render() {
     return (
-      <div style={{ color: 'brown', height: '100%', width: '100%', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundImage: "url(" + bg + ")" }}>
+      <div style={{ color: 'brown', height: '100%', width: '100%', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundImage: "url(" + seattle + ")" }}>
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Glen Sale</h2>
