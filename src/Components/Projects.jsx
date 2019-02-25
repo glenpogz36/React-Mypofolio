@@ -22,7 +22,7 @@ class Projects extends Component {
 
     if (this.state.activeTab === 0) {
       return (
-        <div className="projects-grid">
+        <div className="projects">
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
             <CardTitle style={{ height: '100px', width: '100', color: 'orange', height: '176px', backgroundImage: "url(" + github + ")" }} >Hello-World</CardTitle>
@@ -79,7 +79,7 @@ class Projects extends Component {
 
     } else if (this.state.activeTab === 1) {
       return (
-        <div className="projects-grid">
+        <div className="projects">
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
             <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Child Development</CardTitle>
@@ -134,7 +134,7 @@ class Projects extends Component {
       //JS
     } else if (this.state.activeTab === 2) {
       return (
-        <div className="projects-grid">
+        <div className="projects">
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
             <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Pizza</CardTitle>
@@ -188,7 +188,7 @@ class Projects extends Component {
       //ANGULAR
     } else if (this.state.activeTab === 3) {
       return (
-        <div className="projects-grid">
+        <div className="projects">
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
             <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >NBA</CardTitle>
@@ -243,7 +243,7 @@ class Projects extends Component {
 
     else if (this.state.activeTab === 4) {
       return (
-        <div className="projects-grid">
+        <div className="projects">
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
             <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >My Porfolio</CardTitle>

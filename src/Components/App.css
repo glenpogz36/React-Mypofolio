@@ -145,7 +145,7 @@ label[for=comment]{
   padding: 10px;
 }
 
-/* Clearfix (clear floats) */
+
 .row::after {
   content: "";
   clear: both;
@@ -158,11 +158,14 @@ label[for=comment]{
   background: gray
 }
 .home{
-  background: linen
+  background: rgb(51, 228, 228)
 }
 .feedback{
   background: lightseagreen
 }
 .project{
   background: gray
+}
+.projects{
+  display: flex
 }
