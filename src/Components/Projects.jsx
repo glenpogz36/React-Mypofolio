@@ -34,14 +34,14 @@ class Projects extends Component {
               <Button colored> <Link to="/comment"><Link to="/comment">COMMENT</Link></Link></Button>
               <Button colored><a href="https://github.com/glenpogz36/hello-world/blob/master/hello-world.html">Live Code</a></Button>
             </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
+            <CardMenu style={{ color: 'orange' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
 
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
+            <CardTitle style={{ color: 'orange', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
             <CardText>
               Test
             </CardText>
@@ -50,14 +50,14 @@ class Projects extends Component {
               <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
+            <CardMenu style={{ color: 'orange' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
 
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
+            <CardTitle style={{ color: 'orange', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
             <CardText>
               Test
             </CardText>
@@ -66,7 +66,7 @@ class Projects extends Component {
               <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
+            <CardMenu style={{ color: 'orange' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
@@ -82,7 +82,7 @@ class Projects extends Component {
         <div className="projects">
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Child Development</CardTitle>
+            <CardTitle style={{ color: 'orange', height: '176px', backgroundImage: "url(" + github + ")" }} >Child Development</CardTitle>
             <CardText>
               Child Development Timeline website geared toward parents to learn their child's development timeline from birth to 5 years old. The user needs to create an account to login and fill the form statistic information about their child. The result shows in line chart and parent can compare the result with other kids result by choosing specific parts of the form. Also parent can modify child's information.
             </CardText>
@@ -91,14 +91,14 @@ class Projects extends Component {
               <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
+            <CardMenu style={{ color: 'orange' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
 
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
+            <CardTitle style={{ color: 'orange', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
             <CardText>
               Test
             </CardText>
@@ -107,14 +107,14 @@ class Projects extends Component {
               <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
+            <CardMenu style={{ color: 'orange' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
 
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
+            <CardTitle style={{ color: 'orange', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
             <CardText>
               Test
             </CardText>
@@ -123,7 +123,7 @@ class Projects extends Component {
               <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
+            <CardMenu style={{ color: 'orange' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
@@ -137,7 +137,7 @@ class Projects extends Component {
         <div className="projects">
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Pizza</CardTitle>
+            <CardTitle style={{ color: 'orange', height: '176px', backgroundImage: "url(" + github + ")" }} >Pizza</CardTitle>
             <CardText>
               Create a webpage that allows customers to select there custom made pizza allowing them to input there info and total cost of their custom made pizza using Constructors, Array, Loops, and Objects
             </CardText>
@@ -146,14 +146,14 @@ class Projects extends Component {
               <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
+            <CardMenu style={{ color: 'orange' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
 
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
+            <CardTitle style={{ color: 'orange', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
             <CardText>
               Test
             </CardText>
@@ -162,14 +162,14 @@ class Projects extends Component {
               <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
+            <CardMenu style={{ color: 'orange' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
 
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
+            <CardTitle style={{ color: 'orange', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
             <CardText>
               Test
             </CardText>
@@ -178,7 +178,7 @@ class Projects extends Component {
               <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
+            <CardMenu style={{ color: 'orange' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
@@ -191,7 +191,7 @@ class Projects extends Component {
         <div className="projects">
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >NBA</CardTitle>
+            <CardTitle style={{ color: 'orange', height: '176px', backgroundImage: "url(" + github + ")" }} >NBA</CardTitle>
             <CardText>
               Test
             </CardText>
@@ -200,14 +200,14 @@ class Projects extends Component {
               <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored><a href="https://nba-glenpogz36.firebaseapp.com/">Live Demo</a></Button>
             </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
+            <CardMenu style={{ color: 'orange' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
 
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
+            <CardTitle style={{ color: 'orange', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
             <CardText>
               Test
             </CardText>
@@ -216,14 +216,14 @@ class Projects extends Component {
               <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
+            <CardMenu style={{ color: 'orange' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
 
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
+            <CardTitle style={{ color: 'orange', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
             <CardText>
               Test
             </CardText>
@@ -232,7 +232,7 @@ class Projects extends Component {
               <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
+            <CardMenu style={{ color: 'orange' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
@@ -246,7 +246,7 @@ class Projects extends Component {
         <div className="projects">
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >My Porfolio</CardTitle>
+            <CardTitle style={{ color: 'orange', height: '176px', backgroundImage: "url(" + github + ")" }} >My Porfolio</CardTitle>
             <CardText>
               Multiple components that renders different Routed page using state to manage, display, and collect dynamic datas
             </CardText>
@@ -255,14 +255,14 @@ class Projects extends Component {
               <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
+            <CardMenu style={{ color: 'orange' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
 
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
+            <CardTitle style={{ color: 'orange', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
             <CardText>
               Test
             </CardText>
@@ -271,14 +271,14 @@ class Projects extends Component {
               <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
+            <CardMenu style={{ color: 'orange' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
 
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
+            <CardTitle style={{ color: 'orange', height: '176px', backgroundImage: "url(" + github + ")" }} >Test</CardTitle>
             <CardText>
               Test
             </CardText>
@@ -287,7 +287,7 @@ class Projects extends Component {
               <Button colored><Link to="/comment">COMMENT</Link></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
+            <CardMenu style={{ color: 'orange' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
