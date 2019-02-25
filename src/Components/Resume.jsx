@@ -11,7 +11,7 @@ class Resume extends Component {
       <div>
         <Grid>
           <Cell col={4}>
-            <div>
+            <div style={{ textAlign: 'center' }}>
               <img
                 src={profile}
                 alt="avatar"
@@ -19,11 +19,11 @@ class Resume extends Component {
               />
             </div>
 
-            <h2>Glen Sale</h2>
-            <h4>Junior Developer</h4>
-            <hr />
+            <h2 style={{ paddingTop: '2em' }}>Glen Sale</h2>
+            <h4 style={{ color: 'grey' }}>Junior Developer</h4>
+            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
             <p>Objective : Currently working and  studying Computer Programming at Epicodus to obtain an entry level position and to have an opportunity for growth</p>
-            <hr />
+            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
             <h5>Address</h5>
             <p>23925 98th ave S Kent, WA 98031</p>
             <h5>Phone</h5>
@@ -34,9 +34,9 @@ class Resume extends Component {
             <a href="https://github.com/glenpogz36">https://github.com/glenpogz36</a>
             <h5>Linkedin</h5>
             <a href="https://www.linkedin.com/in/glen-sale/">https://www.linkedin.com/in/glen-sale/</a>
-            <hr />
+            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
           </Cell>
-          <Cell col={8}>
+          <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
 
 
@@ -53,7 +53,7 @@ class Resume extends Component {
               schoolName="Epicodus Epecenter"
               schoolDescription=""
             />
-            <hr style={{ borderTop: '3px solid #e22947' }} />
+            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} style={{ borderTop: '3px solid #e22947' }} />
 
             <h2>Experience</h2>
 
@@ -70,7 +70,7 @@ class Resume extends Component {
               jobName="Red Ribbon Tukwilla"
               jobDescription=""
             />
-            <hr />
+            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
             <h2>Skills</h2>
             <Skills
               skill="javascript"

@@ -16,7 +16,7 @@ class About extends Component {
               <p>Over the years I have learned <em>English through ESL and Ell</em> and was able to graduate from it</p>
               <p>I have join <u>robotics clubs</u> and <u>culinary classes</u> but computer was my main interest</p>
               <p>Currently a student epicodus to persue long term career</p></div>
-            <hr />
+            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
           </Cell>
           <Cell col={6}>
             <h2>Hobbies</h2>
@@ -25,7 +25,7 @@ class About extends Component {
               <li>Playing video games</li>
               <li>Cooking</li>
             </ul>
-            <hr />
+            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
 
 
           </Cell>
@@ -36,7 +36,7 @@ class About extends Component {
               <li>Software/Frameworks</li>
               <li>Mechanical Engineering</li>
             </ul>
-            <hr />
+            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
 
 
           </Cell>
@@ -47,7 +47,7 @@ class About extends Component {
               <li>Warehouse</li>
               <li>Swissport</li>
             </ul>
-            <hr />
+            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
 
 
           </Cell>

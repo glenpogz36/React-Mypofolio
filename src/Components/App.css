@@ -1,0 +1,26 @@
+.landing-grid {
+  text-align: center;
+  position: fixed;
+  top: 30;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+
+  margin: auto;
+}
+
+.social-links i {
+  font-size: 3em;
+  padding: 8px;
+}
+
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
