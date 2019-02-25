@@ -1,12 +1,21 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 import bg from '../Assests/img/bg.jpg'
+import CommentApp from './CommentApp'
+
+
+
+
+
 
 class Projects extends Component {
   constructor(props) {
     super(props);
-    this.state = { activeTab: 0 };
+    this.state = { activeTab: 0};
+    
   }
+  
+
 
   toggleCategories() {
     //HTML&CSS
@@ -22,7 +31,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/glenpogz36/hello-world">Github</a></Button>
-              <Button colored>Comment</Button>
+              <Button colored> Comment</Button>
               <Button colored><a href="https://github.com/glenpogz36/hello-world/blob/master/hello-world.html">Live Code</a></Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
@@ -307,8 +316,13 @@ class Projects extends Component {
           </Cell>
         </Grid>
 
+        
 
-      </div>
+       
+
+      </div >
+
+
     )
   }
 }
