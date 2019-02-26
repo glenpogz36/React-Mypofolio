@@ -19,7 +19,8 @@ Web-base porfolio containing about yourself, resume and Github projects. Users a
 
 ### Example of Routing Structure
 
-![routing](https://user-images.githubusercontent.com/43967399/52908288-b7c89500-3227-11e9-9c60-69518e098a2d.png)
+<img width="1457" alt="template" src="https://user-images.githubusercontent.com/43967399/53379143-35be2780-391d-11e9-9d8a-64935b75ddd6.png">
+
 
 ### Future Improvements
 * API 
